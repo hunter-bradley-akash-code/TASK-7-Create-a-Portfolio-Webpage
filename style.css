@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1a1a1a !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://source.unsplash.com/random/1920x1080/?technology');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section Headings */
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+    background-color: #1e1e1e;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Social Icons */
+.social-links a:hover {
+    color: #0d6efd !important; /* Bootstrap Primary Blue */
+    transition: color 0.3s;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+.profile-img{
+    width:300px;
+    height:auto;
+    border-radius:12px;
+}
